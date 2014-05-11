@@ -1,9 +1,10 @@
 set nu
 set t_Co=256
+term=screen-256color
 
 syntax enable
 set background=dark
-colorscheme wombat
+colorscheme solarized
 
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
