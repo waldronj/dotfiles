@@ -1,6 +1,6 @@
 set nu
 set t_Co=256
-term=screen-256color
+set term=screen-256color
 
 syntax enable
 set background=dark
