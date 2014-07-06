@@ -8,7 +8,6 @@ colorscheme solarized
 
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
-
 Bundle 'PProvost/vim-ps1.git'
 Bundle 'rodjek/vim-puppet'
 Bundle 'scrooloose/nerdtree'
@@ -23,7 +22,6 @@ au BufRead,BufNewFile *.pp set ft=puppet
 au BufRead,BufNewFile *.jade set ft=jade
 au BufRead,BufNewFile *.js set ft=javascript
 au BufRead,BufNewFile *.ejs set ft=html
-
 
 map <C-h> <C-w>h
 map <C-j> <C-w>j
