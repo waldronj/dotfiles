@@ -3,6 +3,7 @@ alias moar='pygmentize'
 alias ..='cd ../'
 alias ...='cd ../../'
 alias ....='cd ../../../'
+alias ls'ls --color'
 
 PROMPT_DIRTRIM=2
 
