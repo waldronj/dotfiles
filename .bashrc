@@ -4,6 +4,7 @@ alias ..='cd ../'
 alias ...='cd ../../'
 alias ....='cd ../../../'
 alias ls'ls --color'
+alias ll='ls -l'
 
 PROMPT_DIRTRIM=2
 
