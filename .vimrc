@@ -1,9 +1,14 @@
 set nu
 set t_Co=256
-set term=screen-256color
+set background=dark
+set term=xterm-256color
 
 syntax enable
+
 set background=dark
+syntax on
+set background=dark
+let g:solarized_termtrans = 1
 colorscheme solarized
 
 set rtp+=~/.vim/bundle/vundle/
@@ -16,6 +21,7 @@ Bundle 'pangloss/vim-javascript'
 Bundle 'jelera/vim-javascript-syntax'
 Bundle 'digitaltoad/vim-jade'
 Bundle 'altercation/vim-colors-solarized'
+Bundle 'honza/vim-snippets'
 
 au BufRead,BufNewFile *.ps1 set ft=ps1
 au BufRead,BufNewFile *.pp set ft=puppet
