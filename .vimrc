@@ -21,6 +21,9 @@ Bundle 'pangloss/vim-javascript'
 Bundle 'jelera/vim-javascript-syntax'
 Bundle 'digitaltoad/vim-jade'
 Bundle 'altercation/vim-colors-solarized'
+Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle "tomtom/tlib_vim"
+Bundle "garbas/vim-snipmate"
 Bundle 'honza/vim-snippets'
 
 au BufRead,BufNewFile *.ps1 set ft=ps1
@@ -43,6 +46,7 @@ set softtabstop=4   " Sets the number of columns for a TAB
 set expandtab       " Expand TABs to spaces
 
 let mapleader = ","
+
 
 function! NERDTreeToggleOrFocus()
         if expand("%") =~ "NERD_tree"
