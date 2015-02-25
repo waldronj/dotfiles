@@ -4,6 +4,7 @@ dir=$(pwd)
 echo $dir
 
 cd .vim/bundle/
+rm -rf ./*
 git clone https://github.com/gmarik/vundle.git
 
 cd ~/
