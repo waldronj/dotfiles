@@ -1,0 +1,16 @@
+bash
+bash-completion
+brew-cask
+gettext
+glib
+irssi
+kvm
+libevent
+libffi
+mono
+packer
+readline
+sqlite
+tmux
+tree
+vagrant-completion

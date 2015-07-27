@@ -15,3 +15,13 @@ PATH="$PATH:$HOME/code/dotfiles/utils"
 if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /usr/local/opt/bash-completion
 fi
+
+function hide-hiddenFiles {
+    defaults write com.apple.Finder AppleShowAllFiles 0
+    sudo killall Finder
+}
+
+function show-hiddenFiles {
+    defaults write com.apple.Finder AppleShowAllFiles 1 
+    sudo killall Finder
+}
